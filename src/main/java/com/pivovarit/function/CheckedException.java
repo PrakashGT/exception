@@ -16,7 +16,7 @@
 package com.pivovarit.function;
 
 public class CheckedException extends RuntimeException {
-    public CheckedException(Throwable cause) {
-        super(cause.getMessage(), cause);
+    public CheckedException(Throwable causes) {
+        super(cause.getMessage(), causes);
     }
 }
